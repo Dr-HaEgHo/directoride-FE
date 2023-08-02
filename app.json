@@ -1,10 +1,27 @@
 {
   "expo": {
-    "scheme": "acme",
+    "name": "Directoride",
+    "slug": "Directoride",
+    "version":"1.0.0",
+    "icon":"./assets/icons/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle":"automatic",
+    "splash":{
+      "image": "./assets/images/splash.png",
+      "resizeMode":"contain",
+      "backgroundColor" : "#19196F"
+    },
     "web": {
       "bundler": "metro"
     },
-    "name": "frontend",
-    "slug": "frontend"
+    "ios":{
+      "supportsTablet": true
+    },
+    "android":{
+      "adaptiveIcon":{
+        "foregroundImage":"./assets/icons/adaptive-icon.png",
+        "backgroundColor":"#19196F"
+      }
+    }
   }
 }
